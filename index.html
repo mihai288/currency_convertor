@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="parent">
+    <div class="container">
+        <h1>RON Converter</h1>
+        <input id="up-input" type="number" placeholder="RON">
+        <label for="curr"></label>
+                <select id="curr" name="curr">
+                  <option value="eur">EUR</option>
+                  <option value="usd">USD</option>
+                  <option value="ars">ARS</option>
+                </select>
+        <div class="display" id="display"> </div>
+        <button id="converter">Convert</button>
+    </div>
+</div>
+</body>
+<script src="convert.js"></script>
+</html>

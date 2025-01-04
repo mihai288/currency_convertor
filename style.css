@@ -1,0 +1,87 @@
+        body {
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #1e1e1e, #363636);
+            color: white;
+        }
+        .parent {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 3rem;
+            background-color: #2a2a2a;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+        }
+        h1{
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            width: 100%;
+        }
+        #up-input {
+            padding: 10px;
+            background-color: transparent;
+            border: none;
+            border-bottom: solid 2px #bbbbbb;
+            font-size: 1rem;
+            color: white;
+            transition: border-color 0.3s ease;
+            text-align: center;
+        }
+        #up-input::placeholder {
+            color: #bbbbbb;
+            font-size: 0.9rem;
+        }
+        #up-input:focus {
+            outline: none;
+            border-bottom: solid 2px #ffffff;
+        }
+        .display {
+            padding: 10px;
+            border: none;
+            background-color: transparent;
+            text-align: center;
+            font-size: 1.2rem;
+            color: white;
+            border-bottom: solid 2px #ffffff;
+        }
+        #converter {
+            padding: 10px;
+            margin-top: 5px;
+            cursor: pointer;
+            border: none;
+            background-color: #ffffff;
+            color: #2a2a2a;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: bold;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.1s ease;
+        }
+        #converter:hover {
+            background-color: #000000;
+            color: #ffffff;
+        }
+        #converter:active {
+            transform: scale(0.95);
+        }
+        #curr{
+            background-color: transparent;
+            cursor:pointer;
+            color:white;
+            border: none;
+            text-align: center;
+        }
+        #curr:focus{
+            background-color:#2a2a2a;
+            outline: none;
+        }
